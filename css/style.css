@@ -1,0 +1,2134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+height: 4500px;
+}
+nav{
+    width: 100%;
+    height: 86px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#0B9586;
+    z-index: 1;
+}
+.homephoto{
+width: 157px;
+height: 54px;
+margin: 16px 150px;
+background-image: url(../images/no\ photo.png);
+background-size: cover;
+background-position:center;
+position: relative;
+float: left;
+
+}
+.photolayer{
+    position: absolute;
+    background-color:#188b7e;
+    opacity: 0.8;
+    width: inherit;
+    width: inherit;
+}
+.links{
+    width: 506px; 
+    height: 38px;
+    float: left;
+    margin: 18px 80px;
+}
+.nav_ul li{
+    display: inline-block;
+    margin: 8px 30px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 40px;
+}
+.homli{
+    /* border-bottom: 4px solid #153d38 ; */
+    box-shadow: 0px 4px 2px 0px #135852;
+}
+.contact{
+float: left;
+margin: 20px 0px;
+color: rgb(255, 255, 255);
+}
+.toggle{
+    float: left;
+    width:30px ;
+    height: 30px;
+    margin: 28px 0px;
+    display: none;
+}
+.pcall{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/solar-panels-meadow\ 1.png) ;
+    background-size:cover ;
+    position: relative;
+}
+.biglay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(39, 43, 43, 0.1);
+ } 
+ .home_layer{
+    width: 50%;
+    height: 70%;
+    margin-top: 10%;
+    margin-left: 10%;
+ }
+ .homecontent{
+    margin-top: 70px;
+ }
+ span{
+    color: #ffffff;
+ }
+ .solarh2{
+    color: #ffffff;
+    font-size: 60px;
+ }
+ .phom{
+    color: #fffbfb;
+    font-size: 20px;
+ }
+ .hbtn{
+    margin: 50px  20px ;
+    width: 120px;
+    height: 33px;
+    border-radius: 20px;
+    border: none;
+ }
+ .hbtn1 {
+    background: #3CAB90;
+ }
+ .hbtn2 {
+    background: #FFBB1C;
+    width: 160px;
+ }
+
+
+/* section 2 */
+.section2{
+    width: 100%;
+    height: 70vh;
+    background-color: #fffbfb;
+    position: relative;
+}
+.center2{
+position: absolute;
+width: 70%;
+height: 90%;
+top:10% ;
+left: 15%;
+display: flex;  /*default:row*/
+justify-content: space-between;
+}
+.sec2div{
+    height: inherit;
+}
+.right{
+    width: 60%;
+}
+.left{
+    width: 36%;
+    background-image:url(../images/Rectangle\ 30.png);
+background-position: center;
+background-size: cover;
+border-radius: 10px;
+}
+.svg{
+position: absolute;
+width: 180px;
+height: 160px;
+background-image: url(../images/download.png);
+background-position: center;
+background-size: cover;
+border-radius: 40px;
+top: 50%;
+left: 60%;
+}
+.h2sec2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.psec2{
+    font-size: 15px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.green{
+    color: #0B9586;
+    font-size: 17px;
+    margin-top: 12px;
+}
+.pgreen{
+    display: inline-block;
+}
+/*////////////Section3////////////////*/
+.section3{
+width: 100%;
+height: 70vh;
+background-image: url(../images/8116\ 1.png);
+background-position: center;
+background-size: cover;
+position: relative;
+}                                  
+.phosec3{
+position: absolute;
+width: 40%;
+height: 60%;
+margin: 7% 10%;
+background-color: rgba(255, 254, 254, 0);
+border-radius: 30px;
+}
+.h2sec3{
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 40px;
+}
+.secp3{
+    margin-top: 40px;
+    font-size: 25px;
+    color: #fffbfb;
+}
+.sec3btn{
+    background: #FFBB1C;
+    width: 130px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    margin: 30px 0;
+}
+
+/*////////////Section4////////////////*/
+.section4{
+    width: 80%;
+    height: 90vh;
+    position: relative;
+    margin-left: 10%;
+}
+.kits{
+    position: absolute;
+    width:100% ;
+    height: 25%;
+    text-align:center;
+}
+.kith2{
+    margin-top: 70px;
+    font-size: 30px;
+}
+.kitp{
+    margin-top: 10px;
+    font-size: 16p
+}
+.grid{
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    top: 25%;
+    overflow: auto;
+    background-color: rgb(236, 244, 242);
+}
+.griddivs{
+width: 30%;
+height: 80%;
+float: left;
+background-color: #ffffff;
+margin-top: 15px;
+}
+.divon{
+    margin: 0 5%;
+    margin-top: 15px;
+}
+.griddivs img {
+width: 100%;
+height: 50%;
+}
+.griddivs h3 {
+    margin: 20px 0;
+    font-size: 20px;
+    margin-left: 5px;
+    }
+    .griddivs p {
+      font-size: 14px;
+      margin-left: 5px;
+    }
+.griddivs a ,.griddivs i  {
+        margin: 20px 0;
+        font-size: 18px;
+        text-decoration: none;
+        color:#188b7e
+   }  
+   
+
+ /*///////////Section5////////////////*/
+
+ .sectionfive{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/8116\ 1\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }                                  
+.phosec5{
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    margin: 7% 20%;
+    background-color: rgba(16, 15, 15, 0.7);
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+}
+.h2sec5{
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+}
+.secp5{
+    margin-top: 40px;
+    font-size: 17px;
+    color: #fffbfb;
+    text-align: center;
+    line-height: 25px;
+    padding:15px 40px;
+}
+
+     /*////Section 6/////*/
+
+     .section6{
+        width: 100%;
+        height: 100vh;
+        background: #FFBB1C0D;
+        position: relative;
+        overflow: auto;
+     }
+     .powerright{
+        width: 30%;
+        height: 100%;
+        margin-left: 50px;
+        float: left;
+     }
+     .powerleft{
+        width: 65%;
+        height: 100%;
+        float: left;
+        overflow: auto;
+     }
+     .first2{
+      float: left;
+      width: 50%;
+      height: 100%;
+     }
+     .second2{
+        float: left;
+        width: 50%;
+        height: 100%;
+       }
+       .inno{
+        width: 60%;
+        height: 40%;
+        margin-top: 40px 0;
+        margin: auto;
+        border: 2px solid rgb(51, 163, 105);
+        border-radius: 12px;
+       }
+       .innovators1 ,.innovators3{
+        margin-top: 70px;
+       }
+       .innovators2  ,.innovators4 {
+        margin-top: 15px;
+       }
+       .innovators1 ,.innovators2{
+        margin-left: 160px;
+       }
+       .innovators3 ,.innovators4{
+        margin-right: 200px;
+       }
+       .innovators2{
+          height: 35%;
+       }
+       .shede{
+        margin-top: 100px;
+        margin-left: 80px;
+        background-color: #8da5a3;
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+       }
+      .powericon{
+        font-size: 40px;
+        color: #188b7e;
+        margin-top: 5px;
+        margin-left: 8px;
+      }
+      .h2power{
+        font-size: 32px;
+        margin-top: 15px;
+      }
+      .ppower{
+        font-size: 15px;
+        margin-top: 20px;
+      }
+    .inno img {
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+        height: 70px;
+        border-radius: 12px;   
+     }
+    .energyphoto{
+        position: relative;
+    }
+    .energylayer{
+        width: 90%;
+        height: 70px;
+        margin-top: -70px;
+        margin-left: 5%;
+        position: absolute;
+        background-color: #188b7e;
+        opacity: 0.3;
+        border-radius: 12px; 
+    }
+    .energy{
+        font-size: 16px;
+        margin-top: 5px;
+        margin-left: 8px;
+    }
+    .penergy{
+        font-size: 13px;
+        margin-top: 5px;
+        margin-left: 8px;
+    }
+    .arrowpo , .apower{
+        text-decoration: none;
+        color: #135852;
+        margin-top: 6px;
+        font-size: 14px;
+    }
+    .apower{
+    margin-left: 5px;
+    }
+
+    /*///section 7///*/ 
+    .section7{
+        width: 80%;
+        height: 75vh;
+        position: relative;
+        margin-left: 10%;
+    }
+    .values{ 
+        position: absolute;
+        width:100% ;
+        height: 12%;
+        text-align:center;
+    }
+    .values2{
+        margin-top: 30px;
+        font-size: 25px;
+    }
+    .valp{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .items{
+        width: 100%;
+        height: 80%;
+        position: absolute;
+        top: 22%;
+        overflow: auto;
+    }
+    .itemdivs{
+    width: 25%;
+    height: 80%;
+    margin-top: 20px;
+    float: left;
+    background-color:#ddf0ef;
+    border: 1px solid #1a9b8c;
+    border-radius: 18px;
+    }
+    .itemdivs h3 {
+   margin: 20px;
+   font-size: 20px;
+   margin-left: 15px;
+        }
+   .itemdivs p {
+     font-size: 14px;
+     margin-left: 15px;
+     }
+    .aitems{
+     text-align: center;
+     }
+    .itemdivs  i  {
+        margin-top: 15px;
+     font-size: 60px;
+     color:#188b7e;
+     margin-left: 40%;
+     } 
+     .prices {
+        margin: 20px 12.5%;
+     }
+       /*////section8//////*/
+     .section8{
+        width: 100%;
+        height: 60vh;
+        background-color: #FFBB1C0D;
+        position: relative;
+     }
+     .columns{
+        position: absolute;
+        width: 30%;
+        height: 70%;
+        left: 10%;
+        top: 10%;
+     }
+     .slider{
+        position: absolute;
+        width: 40%;
+        height: 70%;
+        top: 10%;
+        left: 50%;
+        background-color:#ddf0ef;
+        border-radius: 20px;
+     }
+     .columns i{
+        font-size: 40px;
+        color: #74c2b9;
+        margin-left: 60px;
+        margin-top: 30px;
+     }
+     .hhcalls{
+        margin-left: 30px;
+        font-size: 30px;
+        margin-top: 20px;
+     }
+     .ppcalss{
+        margin-left: 30px;
+        font-size: 16px;
+        margin-top: 15px;
+     }
+     .saying{
+        font-size: small;
+        margin-top: 30px;
+        margin-left: 20px;
+        color: #188b7e;
+     }
+     .btnsay{
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        border: none;
+        background-color: #8da5a3;
+     }
+     .soildbtn{
+        margin-top: 30px;
+        margin-left: 300px;
+        background-color: #135852;
+     }
+     .psaying{
+        margin-top: 30px;
+        margin-left: 30px;
+        font-size: 17px;
+        margin-right: 120px;
+        line-height: 26px;
+     }
+     .callerphoto{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-top: 30px;
+        margin-left: 30px;
+        background-color: #8da5a3;
+        /* display: inline; */
+     }
+     .userresky{
+        font-size: xx-large;
+       margin: 8px 5px;
+       margin-left: 12px;
+     }
+     .callerh2{
+        font-size: medium;
+        margin-top: -40px;
+        margin-left: 100px;
+     }
+      .callerpp{
+        font-size: small;
+        margin-left: 100px;
+      }
+      .arrowri{
+        margin-left: 440px;
+        padding-right: 5px;
+      }
+      .rrw{
+        font-size: xx-large;
+        color: #8da5a3;
+      }
+
+      /*////section 9////*/
+      .div9{
+       background-color: #283646;
+       width: 100%;
+       height: 200px;
+       position: relative;
+      }
+      .photoul{
+        width: 400px;
+        height: 130px;
+        float: left;
+        margin-left: 100px;
+      }
+      .phono{
+        margin-top: 20px;
+        margin-left: 10px;
+      }
+      .footer li{
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+      .divswap{
+        width: 500px;
+        height: 200px;
+        float: left;
+        margin-left: 200px;
+      }
+      .pswap{
+        margin-left: 200px;
+        margin-top: 40px;
+        font-size: medium;
+      }
+      form{
+        width: 300px;
+        margin-left: 200px;
+        margin-top: 30px;
+      }
+      input{
+        width: 400px;
+        height: 50px;
+        background-color: #283646 ;
+        border-radius: 30px;
+        margin-top: -25px;
+      }
+      .subbtn{
+        width: 100px;
+        height: 50px;
+        border-radius: 20px;
+        margin-top: -50px;
+        margin-left: 300px;
+        background-color: #FFBB1C;
+      }
+    .divline{
+        width: 80%;
+        height: 1px;
+        background-color: #8da5a3;
+        margin-left: 10%;
+        position: absolute;
+        top: 65%;
+        border-radius: 2px;
+    }
+    .copyspan{
+        font-size: small;
+        margin-left: 70px;
+        color: #7b8786;
+    }
+    .endwrite{
+        position: absolute;
+        top: 70%;
+        width: 100%;
+        height: 30px;
+    }
+    .ppcopy{
+        display: inline-block;
+    font-size: small;
+    margin-left: 80%;
+    color: #7b8786;
+    }
+
+@media (max-width: 786px) and (min-width: 567px) {
+    /* tablets */
+    body{
+        width: 90%;
+        margin-left: 5%;
+    }
+    nav{
+        height: 50px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .homephoto {
+        width: 70px;
+        height: 36px;
+        margin: 7px 10px;
+    }
+    .lineh{
+     display: none;
+    }
+    .links {
+        width: 300px;
+        height: 26px;
+        margin: 12px 5px;
+    }
+    .contact {
+        width: 90px;
+        height: 30;
+        margin: 10px 0px;
+        color: rgb(255, 255, 255);
+    }
+    .nav_ul li {
+        margin: 5px 10px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .pcall{
+       font-size: 12px;
+    }
+    .phnum{
+        font-size: 10px;
+    }
+    .solarh2{
+        color: #ffffff;
+        font-size: 45px;
+     }
+     .phom{
+        color: #fffbfb;
+        font-size: 18px;
+     }
+     .hbtn{
+        margin: 15px  5px ;
+        width: 100px;
+        height: 18px;
+        border-radius: 10px;
+        border: none;
+     }
+     .hbtn2 {
+        background: #FFBB1C;
+        width: 120px;
+     }
+
+/* section2 */
+  .center2{
+    flex-direction: column;
+    }
+    .center2{
+        width: 90%;
+        height: 100%;
+        top:2% ;
+       margin: auto;
+        display: flex;  /*default:row*/
+        justify-content: space-between;
+        }
+    .right{
+        width: 90%;
+        height: 40%;
+        margin: 2% 1%;
+    }
+    .left{
+        width: 60%;
+        height: 35%;
+       margin-top: 20px;
+       margin-left: 20px;
+
+    }
+    .svg{
+    position: absolute;
+    width: 120px;
+    height: 90px;
+    top: 90%;
+    left: 2%;
+    border-radius: 10%;
+    }
+    .h2sec2{
+        font-size: 20px;
+        margin-top: 6px;
+    }
+    .psec2{
+        font-size: 12px;
+        margin-top: 10px;
+        padding-bottom:10px;
+    }
+    .green{
+        font-size: 10px;
+        margin-top: 12px;
+    }
+    .pgreen{
+        display: inline-block;
+        font-size:12px;
+    }
+
+
+    /* section3 */ 
+        .section3{
+            margin-top: 100px;
+        }                              
+        .phosec3{
+        width: 70%;
+        height: 70%;
+        margin: 10% 3%;
+        border-radius: 10px;
+        }
+        .h2sec3{
+            margin-top: 20px;
+            color: #ffffff;
+            font-size: 30px;
+        }
+        .secp3{
+            margin-top: 12px;
+            font-size: 17px;
+            color: #fffbfb;
+        }
+        .sec3btn{
+            background: #FFBB1C;
+            width: 100px;
+            height: 18px;
+            border-radius: 8px;
+            border: none;
+            margin: 15px 0;
+        }
+           /* Section4 */
+        .section4{
+            width: 80%;
+            height: 120vh;
+            position: relative;
+        }
+        .kits{
+            width:100% ;
+            height: 15%;
+            text-align:center;
+        }
+        .kith2{
+            margin-top: 10px;
+            font-size: 15px;
+        }
+        .kitp{
+            margin-top: 8px;
+            font-size: 12p
+        }
+        .grid{
+            width: 100%;
+            height: 75%;
+            position: absolute;
+            top: 20%;
+        }
+        .griddivs{
+        height: 90%;
+        }
+        .griddivs h3 {
+            font-size: 17px;
+            margin-left: 5px;
+            }
+            .griddivs p {
+              font-size: 12px;
+            }
+        .griddivs a ,.griddivs i {
+                font-size: 14px;
+           }  
+
+          /* section5*/
+          .h2sec5{
+            margin-top: 8px;
+            color: #ffffff;
+            font-size: 18px;
+            text-align: center;
+        }
+        .secp5{
+            margin-top: 15px;
+            font-size: 10px;
+            color: #fffbfb;
+            text-align: center;
+            line-height: 15px;
+            padding:15px 20px;
+        }
+
+        /*////Section 6/////*/
+     .section6{
+        width: 100%;
+        height: 270vh;
+     }
+     .powerright{
+        width: 60%;
+        height: 40vh;
+      margin: auto;
+        text-align: center;
+        float: none;
+     }
+     .powerleft{
+        width: 100%;
+        height: 220vh;
+        float: none;
+     }
+     .first2{
+       float: none;
+      width: 100%;
+     margin: auto;
+      height: 100vh;
+      margin-bottom: 30px;
+     }
+     .second2{
+        float: none;
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+       }
+       .inno{
+        width: 70%;
+        height: 50%;
+        margin-top: 150px ;
+        margin: auto;
+        border: 2px solid rgb(51, 163, 105);
+        border-radius: 12px;
+       }
+       .innovators1 ,.innovators3{
+        margin-top: 20px;
+       }
+       .innovators2  ,.innovators4 {
+        margin-top: 15px;
+       }
+       .innovators2{
+          height: 40%;
+       }
+       .shede{
+        margin-top: 30px;
+        margin-left: 160px;
+       }
+      .powericon{
+      padding-right:5px;
+      }
+      .h2power{
+        font-size: 32px;
+        margin-top: 15px;
+      }
+      .ppower{
+        font-size: 15px;
+        margin-top: 20px;
+      }
+    .inno img {
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+        height: 70px;
+        border-radius: 12px;   
+     }
+    .energyphoto{
+        position: relative;
+    }
+    .energylayer{
+        width: 90%;
+        height: 70px;
+        margin-top: -70px;
+        margin-left: 5%;
+        position: absolute;
+        background-color: #188b7e;
+        opacity: 0.3;
+        border-radius: 12px; 
+    }
+ /*///section 7///*/ 
+ .section7{
+    width: 100%;
+    height: 170vh;
+    position: relative;
+    left: 0;
+    margin-left: 0;
+}
+.values{ 
+    position: absolute;
+    width:100% ;
+    height: 20vh;
+    text-align:center;
+}
+.values2{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.valp{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.items{
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    top: 12%;
+}
+.itemdivs{
+width: 80%;
+height: 31%;
+margin-top: 1%;
+float: none;
+margin: auto;
+}
+.itemdivs h3 {
+margin: 20px;
+font-size: 17px;
+margin-left: 15px;
+    }
+.itemdivs p {
+ font-size: 12px;
+ margin-left: 15px;
+ }
+.aitems{
+ text-align: center;
+ }
+.itemdivs  i  {
+    margin-top: 15px;
+ font-size: 60px;
+ color:#188b7e;
+ margin-left: 40%;
+ } 
+.prices{
+   margin: 15px auto;
+}
+/*////section8//////*/
+.section8{
+    width: 100%;
+    height: 150vh;
+    background-color: #FFBB1C0D;
+    position: relative;
+ }
+ .columns{
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    top: 5%;
+ }
+ .slider{
+    width: 80%;
+    height: 70vh;
+    top: 40%;
+    margin-left: -40%;
+    position: absolute;
+ }
+ .columns i{
+    font-size: 40px;
+    color: #74c2b9;
+    margin-left: 60px;
+    margin-top: 30px;
+ }
+ .hhcalls{
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 20px;
+ }
+ .ppcalss{
+    margin-left: 30px;
+    font-size: 16px;
+    margin-top: 15px;
+ }
+ .saying{
+    font-size: small;
+    margin-top: 30px;
+    margin-left: 20px;
+ }
+ .btnsay{
+    width: 7px;
+    height: 7px;
+ }
+ .soildbtn{
+    margin-top: 30px;
+    margin-left: 200px;
+    background-color: #135852;
+ }
+ .psaying{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 17px;
+    margin-right: 120px;
+    line-height: 26px;
+ }
+  .arrowri{
+    margin-left: 320px;
+    padding-right: 5px;
+  }
+  .rrw{
+    font-size: xx-large;
+    color: #8da5a3;
+    margin-top: 20px;
+  }
+  /*////section 9////*/
+  .div9{
+    width: 100%;
+    height:110vh;
+   }
+   .photoul{
+     width: 100%;
+     margin: auto;
+     height: 40vh;
+   }
+   .phono{
+     margin-top: 20px;
+     width: 80%;
+     margin-left: 10%;
+   }
+   .divswap{
+     width: 100%;
+     height: 40vh;
+     margin-left: 0%;
+     background-color: #FFBB1C;
+   }
+   .footer li{
+    margin-top: 20px;
+    margin-left: 8.5%;
+   }
+   .pswap{
+     margin-left: 25px;
+     margin-top: 40px;
+     font-size: medium;
+   }
+   form{
+     width: 300px;
+     margin-left: 200px;
+     margin-top: 30px;
+   }
+   input{
+     width: 400px;
+     height: 50px;
+     border-radius: 30px;
+     margin-top: -25px;
+     margin-left:-180px;
+   }
+   .subbtn{
+     margin-left:125px;
+   }
+ .divline{
+     margin-top: 15vh;
+ }
+ .endwrite{
+     width: 80%;
+     height: 15vh;
+     text-align: center;
+     margin-left: 10%;
+     margin-top: 100px;
+ }
+ .ppcopy{
+ display: block;
+ margin-top: 15px;
+ margin:15px auto;
+ font-size: small;
+ color: #7b8786;
+ }
+}
+
+@media (max-width: 576px)and (min-width: 420px) {
+    /* mobiles */
+    nav{
+        height: 30px;
+    }
+    .homephoto {
+        display: none;
+    }
+    .home_layer{
+    width: 70%;
+    }
+    .links {
+        display: none;
+    }
+
+    .contact {
+        display: none;
+    }
+    .toggle{
+        width:30px ;
+        height: 30px;
+        margin-top: 6px;
+      margin-left: 400px;
+        display: inline;
+        z-index: 2;
+        position: absolute;
+    }
+   .navtoggle{
+    background-color: #0B9586;
+    }
+    .navtog_ul {
+    list-style-type: none;
+    overflow: hidden;
+    }
+
+   .navtog_ul li {
+    float: left;
+    position: relative;
+    }
+   .navtog_ul li a {
+    display: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 20px;
+   }
+   .liicon{
+    color: #ffffff;
+    margin-top: 8px;
+    margin-left: 400px;
+   }
+   .toggle:hover .navtog_ul li a {
+    display: block;
+    }
+    .toggle:hover .liicon {
+        display: none;
+    }
+    .solarh2 {
+        color: #ffffff;
+        font-size: 30px;
+    }
+
+    .phom {
+        color: #fffbfb;
+        font-size: 12px;
+    }
+
+    .hbtn {
+        display: block;
+        margin: 10px auto; 
+        width: 80px;
+        height: 14px;
+        border-radius: 10px;
+    }
+
+ .hbtn2 {
+        width: 140px;
+    }
+    /* section2 */
+    .center2{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        }
+        .right{
+            width: 100%;
+            height: 50%;
+            top: 2%;
+            left: 2%;
+        }
+        .left{
+            width: 50%;
+            height: 30%;
+            margin-top: 30px;
+            margin: auto;
+        }
+        .svg{
+        position: absolute;
+        width: 90px;
+        height: 50px;
+        top: 72%;
+        left: 12%;
+        border-radius: 10%;
+        }
+        .h2sec2{
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .psec2{
+            font-size: 12px;
+            margin-top: 10px;
+            padding-bottom:6px;
+        }
+        .green{
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        .pgreen{
+            display: inline-block;
+            font-size: 12px;
+        }
+
+/* section3 */ 
+.phosec3{
+width: 60%;
+height: 40%;
+margin: 10% 3%;
+border-radius: 10px;
+}
+.h2sec3{
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.secp3{
+    margin-top: 12px;
+    font-size: 15px;
+    color: #fffbfb;
+}
+.sec3btn{
+    background: #FFBB1C;
+    width: 100px;
+    height: 18px;
+    border-radius: 8px;
+    border: none;
+    margin: 15px 0;
+}
+
+        /* Section4 */
+        .section4{
+            width: 80%;
+            height: 200vh;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+        .kits{
+            width:100% ;
+            height: 8%;
+            text-align:center;
+        }
+        .kith2{
+            margin-top: 10px;
+            font-size: 15px;
+        }
+        .kitp{
+            margin-top: 8px;
+            font-size: 12p
+        }
+        .grid{
+            width: 100%;
+            margin: auto;
+            height: 120%;
+            position: absolute;
+            top: 13%;
+        }
+        .griddivs{
+        width: 90%;
+        margin-left: 5%;
+        height: 30%;
+        float: none;
+        }
+        .griddivs img {
+           width: 100%;
+           height: 50%;
+            }
+        .griddivs h3 {
+            font-size: 17px;
+            margin-left: 5px;
+            }
+            .griddivs p {
+              font-size: 12px;
+            }
+        .griddivs a ,.griddivs i {
+                font-size: 14px;
+           } 
+
+        /* section5 */
+        .sectionfive{
+           margin-top:350px ;
+        }
+          .h2sec5{
+            margin-top: 8px;
+            color: #ffffff;
+            font-size: 13px;
+            text-align: center;
+        }
+        .secp5{
+            margin-top: 15px;
+            font-size: 10px;
+            color: #fffbfb;
+            text-align: center;
+            line-height: 15px;
+            padding:15px 20px;
+        }
+        .phosec5{
+            top: 15%;
+        }
+
+      /*////Section 6/////*/
+      .section6{
+        width: 100%;
+        height: 300vh;
+     }
+     .powerright{
+        width: 60%;
+        height: 70vh;
+        margin-left: 20%;
+        text-align: center;
+        float: left;
+     }
+     .powerleft{
+        width: 100%;
+        height: 230vh;
+     }
+     .first2{
+       float: none;
+      width: 100%;
+     margin: auto;
+      height: 100vh;
+     }
+     .second2{
+        float: none;
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+       }
+       .inno{
+        width: 70%;
+        height: 50%;
+        margin-top: 150px ;
+        margin-left: 15%;
+        border-radius: 12px;
+       }
+       .innovators1 ,.innovators3{
+        margin-top: 20px;
+       }
+       .innovators2  ,.innovators4 {
+        margin-top: 15px;
+       }
+       .innovators2{
+          height: 40%;
+       }
+       .shede{
+        margin-top: 30px;
+        margin-left: 120px;
+       }
+      .powericon{
+      padding-right:5px;
+      }
+      .h2power{
+        font-size: 32px;
+        margin-top: 15px;
+      }
+      .ppower{
+        font-size: 15px;
+        margin-top: 20px;
+      }
+    .inno img {
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+        height: 70px;
+        border-radius: 12px;   
+     }
+    .energyphoto{
+        position: relative;
+    }
+    .energylayer{
+        width: 90%;
+        height: 70px;
+        margin-top: -70px;
+        margin-left: 5%;
+        position: absolute;
+        background-color: #188b7e;
+        opacity: 0.3;
+        border-radius: 12px; 
+    }
+
+      /*///section 7///*/ 
+ .section7{
+    width: 100%;
+    height: 170vh;
+    position: relative;
+    left: 0;
+    margin-left: 0;
+}
+.values{ 
+    position: absolute;
+    width:100% ;
+    height: 20vh;
+    text-align:center;
+}
+.values2{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.valp{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.items{
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    top: 12%;
+}
+.itemdivs{
+width: 80%;
+height: 31%;
+margin-top: 1%;
+float: none;
+margin: auto;
+}
+.itemdivs h3 {
+margin: 20px;
+font-size: 17px;
+margin-left: 15px;
+    }
+.itemdivs p {
+ font-size: 12px;
+ margin-left: 15px;
+ }
+.aitems{
+ text-align: center;
+ }
+.itemdivs  i  {
+    margin-top: 15px;
+ font-size: 60px;
+ color:#188b7e;
+ margin-left: 40%;
+ } 
+.prices{
+   margin: 15px auto;
+}
+/*////section8//////*/
+.section8{
+    width: 100%;
+    height: 130vh;
+    background-color: #FFBB1C0D;
+    position: relative;
+ }
+ .columns{
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    top: 5%;
+ }
+ .slider{
+    width: 80%;
+    height: 70vh;
+    top: 40%;
+    margin-left: -40%;
+    position: absolute;
+ }
+ .columns i{
+    font-size: 40px;
+    color: #74c2b9;
+    margin-left: 60px;
+    margin-top: 30px;
+ }
+ .hhcalls{
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 20px;
+ }
+ .ppcalss{
+    margin-left: 30px;
+    font-size: 16px;
+    margin-top: 15px;
+ }
+ .saying{
+    font-size: small;
+    margin-top: 30px;
+    margin-left: 20px;
+ }
+ .btnsay{
+    width: 7px;
+    height: 7px;
+ }
+ .soildbtn{
+    margin-top: 30px;
+    margin-left: 180px;
+    background-color: #135852;
+ }
+ .psaying{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 17px;
+    margin-right: 120px;
+    line-height: 26px;
+ }
+  .arrowri{
+    margin-left: 270px;
+    padding-right: 5px;
+  }
+  .rrw{
+    font-size: 18px;
+    color: #8da5a3;
+    margin-top: -30px;
+  }
+  /*////section 9////*/
+  .div9{
+    width: 100%;
+    height:110vh;
+   }
+   .photoul{
+     width: 100%;
+     margin: auto;
+     height: 40vh;
+   }
+   .phono{
+     margin-top: 20px;
+     width: 80%;
+     margin-left: 10%;
+   }
+   .divswap{
+     width: 100%;
+     height: 40vh;
+     margin-left: 0%;
+     background-color: #FFBB1C;
+   }
+   .footer li{
+    margin-top: 20px;
+    margin-left: 8.5%;
+    font-size: 14px ;
+   }
+   .pswap{
+     margin-left: 25px;
+     margin-top: 40px;
+     font-size: medium;
+   }
+   form{
+     width: 300px;
+     margin-left: 200px;
+     margin-top: 30px;
+   }
+   input{
+     width: 300px;
+     height: 50px;
+     border-radius: 30px;
+     margin-top: -25px;
+     margin-left:-180px;
+   }
+   .subbtn{
+     margin-left:-70px;
+   }
+ .divline{
+     margin-top: 15vh;
+ }
+ .endwrite{
+     width: 80%;
+     height: 15vh;
+     text-align: center;
+     margin-left: 10%;
+     margin-top: 100px;
+ }
+ .ppcopy{
+ display: block;
+ margin-top: 15px;
+ margin:15px auto;
+ font-size: small;
+ color: #7b8786;
+ }
+}
+
+@media (max-width: 420px) {
+    
+    .home{
+        height: 500px;
+    }
+    nav{
+        height: 60px;
+    }
+    .homephoto {
+        display: none;
+    }
+   .biglay{
+    width: 100%;
+    height: 100%;
+    top:60px ;
+   }
+   .home_layer{
+    width: 100%;
+    height: 100%;
+    }
+    .links {
+        display: none;
+    }
+    .contact {
+        display: none;
+    }
+    .toggle{
+        width:30px ;
+        height: 30px;
+        margin-top: 6px;
+        margin-left: 200px;
+        display: inline;
+        z-index: 2;
+        position: absolute;
+    }
+   .navtoggle{
+    background-color: #0B9586;
+    }
+    .navtog_ul {
+    list-style-type: none;
+    overflow: hidden;
+    }
+
+   .navtog_ul li {
+    float: left;
+    position: relative;
+    }
+   .navtog_ul li a {
+    display: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 5px;
+   }
+   .liicon{
+    color: #ffffff;
+    margin-top: 15px;
+    margin-left: 250px;
+    font-size: 20px;
+   }
+   .toggle:hover .navtog_ul li a {
+    display: block;
+    }
+    .toggle:hover .liicon {
+        display: none;
+    }
+    .solarh2 {
+        color: #ffffff;
+        font-size: 30px;
+        text-align: center;
+    }
+    .homecontent{
+        width: 100%;
+        height: 50%;
+        margin-left:-30px;
+    }
+    .phom {
+        color: #fffbfb;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .hbtn {
+        display: block;
+        margin: 10px auto; 
+        width: 80px;
+        height: 14px;
+        border-radius: 10px;
+    }
+
+ .hbtn2 {
+        width: 140px;
+    }
+    /* section2 */
+    .center2{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        }
+        .right{
+            width: 100%;
+            height: 50%;
+            top: 2%;
+            left: 2%;
+        }
+        .left{
+            width: 80%;
+            height: 40%;
+            padding-top:30px;
+            margin: auto;
+        }
+        .svg{
+        position: absolute;
+        width: 100px;
+        height: 60px;
+        top: 80%;
+        left: 2%;
+        border-radius: 10%;
+        }
+        .h2sec2{
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .psec2{
+            font-size: 12px;
+            margin-top: 10px;
+            padding-bottom:6px;
+        }
+        .green{
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        .pgreen{
+            display: inline-block;
+            font-size: 12px;
+        }
+
+/* section3 */ 
+.section3{
+    height: 300px;
+}
+.phosec3{
+width: 60%;
+height: 300px;
+margin: 10% 3%;
+border-radius: 10px;
+}
+.h2sec3{
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.secp3{
+    margin-top: 12px;
+    font-size: 15px;
+    color: #fffbfb;
+}
+.sec3btn{
+    background: #FFBB1C;
+    width: 100px;
+    height: 18px;
+    border-radius: 8px;
+    border: none;
+    margin: 15px 0;
+}
+
+        /* Section4 */
+        .section4{
+            width: 80%;
+            height: 125vh;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+        .kits{
+            width:100% ;
+            height: 8%;
+            text-align:center;
+        }
+        .kith2{
+            margin-top: 10px;
+            font-size: 15px;
+        }
+        .kitp{
+            margin-top: 8px;
+            font-size: 12p
+        }
+        .grid{
+            width: 100%;
+            margin: auto;
+            height: 120%;
+            position: absolute;
+            top: 18%;
+        }
+        .griddivs{
+        width: 90%;
+        margin-left: 5%;
+        height: 30%;
+        float: none;
+        }
+        .griddivs img {
+           width: 100%;
+           height: 50%;
+            }
+        .griddivs h3 {
+            font-size: 17px;
+            margin-left: 5px;
+            }
+            .griddivs p {
+              font-size: 12px;
+            }
+        .griddivs a ,.griddivs i {
+                font-size: 14px;
+           } 
+
+        /* section5 */
+        .sectionfive{
+           margin-top:370px ;
+           width: 100%;
+           height: 300px;
+        }
+        .phosec5{
+            width: 88%;
+            height: 80%;
+            top: 7%;
+            margin: 7% 6%;
+        }
+          .h2sec5{
+            margin-top: 8px;
+            color: #ffffff;
+            font-size: 13px;
+            text-align: center;
+        }
+        .secp5{
+            margin-top: 8px;
+            font-size: 10px;
+            color: #fffbfb;
+            text-align: center;
+            line-height: 15px;
+            padding:15px 20px;
+        }
+        
+      /* /////Section 6////// */
+      .section6{
+        width: 100%;
+        height: 200vh;
+     }
+     .powerright{
+        width: 100%;
+        height: 7vh;
+        text-align: center;
+        float: none;
+        margin-left: 0;
+     }
+     .powerleft{
+        width: 100%;
+        height: 170vh;
+        margin-top: 16vh;
+     }
+     .shede{
+        margin-top: 30px;
+        margin-left: 120px;
+       }
+      .powericon{
+      padding-right:5px;
+      }
+      .h2power{
+        font-size: 16px;
+        margin-top: 6px;
+      }
+      .ppower{
+        font-size: 11px;
+        margin-top: 6px;
+      }
+     .first2{
+    float: none;
+    width: 100%;
+    margin: auto;
+    height: 70vh;
+     }
+    .second2{
+        float: none;
+        width: 100%;
+        height: 60vh;
+        margin: auto;
+     }
+    .inno{
+        width: 90%;
+        height: 280px;
+        margin-top: 10px ;
+        margin-left: 5%;
+        border-radius: 12px;
+       }
+       .innovators1 ,.innovators3{
+        margin-top: 20px;
+       }
+       .innovators2  ,.innovators4 {
+        margin-top: 15px;
+       }
+       .innovators2{
+          height: 40%;
+       }
+       .shede{
+        margin-top: 30px;
+        margin-left: 120px;
+       }
+      .powericon{
+      padding-right:5px;
+      }
+      .h2power{
+        font-size: 16px;
+        margin-top: 6px;
+      }
+      .ppower{
+        font-size: 11px;
+        margin-top: 6px;
+      }
+    .inno img {
+        margin-top: 20px;
+        width: 90%;
+        margin-left: 5%;
+        height: 70px;
+        border-radius: 12px;   
+     }
+    .energyphoto{
+        position: relative;
+    }
+    .energylayer{
+        width: 90%;
+        height: 70px;
+        margin-top: -70px;
+        margin-left: 5%;
+        position: absolute;
+        background-color: #188b7e;
+        opacity: 0.3;
+        border-radius: 12px; 
+    }
+
+      /* ////section 7////  */
+ .section7{
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    left: 0;
+    margin-left: 0;
+}
+.values{ 
+    position: absolute;
+    width:100% ;
+    height: 20vh;
+    text-align:center;
+}
+.values2{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.valp{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.items{
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    top: 12%;
+}
+.itemdivs{
+width: 90%;
+height: 250px;
+margin-top: 1%;
+float: none;
+margin: auto;
+}
+.itemdivs h3 {
+margin: 20px;
+font-size: 17px;
+margin-left: 15px;
+    }
+.itemdivs p {
+ font-size: 12px;
+ margin-left: 15px;
+ }
+.aitems{
+ text-align: center;
+ }
+.itemdivs  i  {
+    margin-top: 15px;
+ font-size: 60px;
+ color:#188b7e;
+ margin-left: 40%;
+ } 
+.prices{
+   margin: 15px auto;
+}
+/* /////section8/////// */
+.section8{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFBB1C0D;
+    position: relative;
+ }
+ .columns{
+    width: 90%;
+    height: 30vh;
+    margin-left: -5%;
+    top: 20px;
+ }
+ .slider{
+    width: 90%;
+    height: 60vh;
+    top: 35%;
+    margin-left: -45%;
+    position: absolute;
+ }
+ .columns i{
+    font-size: 40px;
+    color: #74c2b9;
+  text-align: center;
+    margin-top: 30px;
+ }
+ .hhcalls{
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+ }
+ .ppcalss{
+    margin-left: 30px;
+    font-size: 16px;
+    margin-top: 15px;
+ }
+ .saying{
+    font-size: 12px;
+    padding-top: 50px;
+    margin-left: 20px;
+ }
+ .btnsay{
+    width: 7px;
+    height: 7px;
+ }
+ .soildbtn{
+    margin-top: 30px;
+    margin-left: 180px;
+    background-color: #135852;
+ }
+ .psaying{
+    margin-top: 6px;
+    /* margin-left: 30px; */
+    font-size: 11px;
+    margin-right: 120px;
+    line-height: 26px;
+ }
+  .arrowri{
+    margin-left: 20px;
+    padding-right: 5px;
+  }
+  .rrw{
+    font-size: 18px;
+    color: #8da5a3;
+    margin-top: -30px;
+  }
+  /* /////section 9///// */
+  .div9{
+    width: 100%;
+    height:65vh;
+   }
+   .photoul{
+     width: 100%;
+     margin: auto;
+     height: 20vh;
+   }
+   .phono{
+     margin-top: 20px;
+     width: 80%;
+     margin-left: 10%;
+   }
+   .divswap{
+     width: 100%;
+     height: 18vh;
+     margin-left: 0%;
+     background-color: #FFBB1C;
+   }
+   .footer li{
+    margin-top: 20px;
+    margin-left: 8.5%;
+    font-size: 14px ;
+   }
+   .pswap{
+     margin-left: 20px;
+     margin-top: 20px;
+     font-size: 12px;
+   }
+   form{
+     width: 300px;
+     margin-left: 200px;
+     margin-top: 30px;
+   }
+   input{
+     width: 200px;
+     height: 40px;
+     border-radius: 30px;
+     margin-top: -25px;
+     margin-left:-180px;
+   }
+   .subbtn{
+     margin-left:-70px;
+     width:70px ;
+     height: 40px;
+   }
+ .divline{
+     margin-top: 0vh;
+ }
+ .endwrite{
+     width: 100%;
+     height: 10vh;
+     text-align: center;
+     margin-left: -10%;
+     margin-top: 5px;
+ }
+ .ppcopy{
+ display: block;
+ margin-top: 15px;
+ margin:15px auto;
+ font-size: small;
+ color: #7b8786;
+ margin-left: 20%;
+ }
+}
